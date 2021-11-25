@@ -45,7 +45,7 @@ const Page = () => {
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          Bio
+          About me
         </Heading>
         <Paragraph>
           I'm a mobile developer with over two years of development experience and improving my skills with Javascript and Typescript to build high-performance and high complexity hybrid applications (android and ios) using the react-native framework, my
