@@ -14,6 +14,7 @@ import Layout from '../components/layouts/article';
 import thumbLifepet from '../../public/images/works/lifepet_01.png';
 import thumbSatelite from '../../public/images/works/satelite_01.png';
 import thumbForniture from '../../public/images/works/forniture_01.png';
+import thumbWine from '../../public/images/works/wine_01.png';
 
 const Works = () => {
   return (
@@ -25,18 +26,24 @@ const Works = () => {
 
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section delay={0.2}>
+            <WorkGridItem id="wine" title="Wine" thumbnail={thumbWine}>
+              The biggest wine club from the world.
+            </WorkGridItem>
+          </Section>
+
+          <Section delay={0.6}>
             <WorkGridItem id="lifepet" title="Lifepet Partners" thumbnail={thumbLifepet}>
               Mobile app for pet owners to track their pets' health and behavior.
             </WorkGridItem>
           </Section>
 
-          <Section delay={0.6}>
+          <Section delay={0.9}>
             <WorkGridItem id="satelite" title="Satelite" thumbnail={thumbSatelite}>
               A hybrid app (android and ios) built to manage video calls person to person or live for multiple users.
             </WorkGridItem>
           </Section>
 
-          <Section delay={0.9}>
+          <Section delay={1.4}>
             <WorkGridItem id="forniture" title="FornitureFer App" thumbnail={thumbForniture}>
               A hybrid app (android and ios) built like a forniture store.
             </WorkGridItem>

@@ -5,10 +5,10 @@ import P from "../../components/paragraph";
 import Layout from "../../components/layouts/article";
 
 const Work = () => (
-  <Layout title="FornitureFer">
+  <Layout title="Wine">
     <Container>
       <Title>
-        Forniture <Badge>2021</Badge>
+        Wine <Badge>2021</Badge>
       </Title>
 
       <P>
@@ -38,7 +38,7 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <WorkImage src="/images/works/forniture_01.png" alt="forniture" />
+      <WorkImage src="/images/works/wine_01.png" alt="wine" />
     </Container>
   </Layout>
 );
