@@ -7,7 +7,8 @@ export const BioSection = styled(Box)`
 
   &:hover {
     text-decoration: underline;
-    color: orange;
+    font-weight: bold;
+    color: chocolate;
   }
 
   cursor: context-menu;
@@ -19,7 +20,7 @@ export const BioYear = styled.span`
 
   &:hover {
     text-decoration: underline;
-    color: orange;
+    color: chocolate;
   }
 
   cursor: context-menu;
