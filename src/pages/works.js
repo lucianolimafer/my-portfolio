@@ -4,7 +4,7 @@ import {
   SimpleGrid,
   Divider
 } from '@chakra-ui/react';
-import Section from '../components/Section';
+import Section from '../components/section';
 import {
   GridItem,
   WorkGridItem,

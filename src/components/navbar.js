@@ -78,7 +78,7 @@ const Navbar = props => {
           flexGrow={1}
         >
           <LinkItem path={path} href="/works">Works</LinkItem>
-          <LinkItem path={path} href="/posts">Posts</LinkItem>
+          {/* <LinkItem path={path} href="/posts">Posts</LinkItem> */}
         </Stack>
 
         <Box flex={1} align="right" >
@@ -104,9 +104,9 @@ const Navbar = props => {
                 <NextLink href="/works" passHref>
                   <MenuItem as={Link}>Works</MenuItem>
                 </NextLink>
-                <NextLink href="/posts" passHref>
+                {/* <NextLink href="/posts" passHref>
                   <MenuItem as={Link}>Posts</MenuItem>
-                </NextLink>
+                </NextLink> */}
               </MenuList>
             </Menu>
           </Box>
