@@ -13,6 +13,7 @@ import {
 import Layout from '../components/layouts/article';
 import thumbLifepet from '../../public/images/works/lifepet_01.png';
 import thumbSatelite from '../../public/images/works/satelite_01.png';
+import thumbForniture from '../../public/images/works/forniture_01.png';
 
 const Works = () => {
   return (
@@ -32,6 +33,12 @@ const Works = () => {
           <Section delay={0.6}>
             <WorkGridItem id="satelite" title="Satelite" thumbnail={thumbSatelite}>
               A hybrid app (android and ios) built to manage video calls person to person or live for multiple users.
+            </WorkGridItem>
+          </Section>
+
+          <Section delay={0.9}>
+            <WorkGridItem id="forniture" title="FornitureFer App" thumbnail={thumbForniture}>
+              A hybrid app (android and ios) built like a forniture store.
             </WorkGridItem>
           </Section>
         </SimpleGrid>
