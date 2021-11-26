@@ -11,7 +11,7 @@ import {
   GridItemStyle
 } from '../components/grid-item';
 import Layout from '../components/layouts/article';
-import thumbLifepet from '../../public/images/works/inkdrop_01.webp';
+import thumbLifepet from '../../public/images/works/lifepet_01.png';
 import thumbSatelite from '../../public/images/works/satelite_01.png';
 
 const Works = () => {
@@ -29,7 +29,7 @@ const Works = () => {
             </WorkGridItem>
           </Section>
 
-          <Section delay={0.4}>
+          <Section delay={0.6}>
             <WorkGridItem id="satelite" title="Satelite" thumbnail={thumbSatelite}>
               A hybrid app (android and ios) built to manage video calls person to person or live for multiple users.
             </WorkGridItem>
