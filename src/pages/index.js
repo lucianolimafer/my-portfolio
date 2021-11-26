@@ -52,8 +52,8 @@ const Page = () => {
           <Paragraph>
             I'm a mobile developer with over two years of development experience and improving my skills with Javascript and Typescript to build high-performance and high complexity hybrid applications (android and ios) using the react-native framework, my
             {' '}
-            <NextLink href="/works/inkdrop">
-              <Link>Linkedin</Link>
+            <NextLink href="/">
+              <Link href="https://www.linkedin.com/in/lucianolimafer/" target="_blank">Linkedin</Link>
             </NextLink>
             .
           </Paragraph>
